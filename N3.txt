@@ -1,0 +1,37 @@
+/*
+
+*/
+Star
+    int grade[5]
+    int big 
+    int small
+    int mid
+    
+    for(int i;i<=5;i++)
+    {
+        int enter
+        write "enter your",i,"grade"
+        read enter
+        if(enter>=0 and <=10){
+            grade[i]
+        }else{
+            write "sorry the grade is invalid"
+        }
+    }
+    for(int i=0;i<grade.length;i++){
+        write"This is the grades of the studen",grade[i]
+        for(int j=1;i<grade.length;j++){
+            if(grade[big]<grade[i]){
+                big=i
+            }
+            write "The major note is:"big
+        }
+        for(int k=1;k<grade.lenght;k++){
+            if(grade[small]>grade[i]){
+                small=i
+            }
+            write"The low note is :", small
+        }
+    }        
+    
+End
