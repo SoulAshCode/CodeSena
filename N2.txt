@@ -1,0 +1,26 @@
+/*
+
+*/
+Start 
+    int enter
+    write "Enter the number of de students"
+    String studens[enter]
+    int age[enter]
+    
+    do{
+       for(int i=1;i<enter;i++){
+           String name 
+           write"Enter your first and last name"
+            read name
+            studens[i]=name
+             int entry
+           write "enter your age"
+           age[j]=entry
+       }
+       for(int j=0;j<age.length;j++){
+           if(age[j]>=18){
+               write"This studen is a adult",studens[i]
+           }
+       }  
+    }while(name=="*")
+End
