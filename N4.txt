@@ -1,0 +1,35 @@
+/*
+The program is for search a number in the arrays
+*/
+
+Star
+    myNumber[8]
+    
+    for(int i=0;i<=8;i++){
+        int enter
+        write "Enter the ",i," number"
+        read enter
+        myNumber[i]=enter
+    }
+    int enter
+    write "Enter your selection number my friend :)"
+    read enter
+    SetSearchTheNumber(enter)
+    GetSearchTheNumber()
+    
+End
+   
+    function SetSearchTheNumber(int number){
+         boolean logic= true
+        for(int i=1;i<myNumber.length;i++)
+        if(myNumber[i]==number){
+            logic = true
+        }else{
+            logic =false
+        }
+    }
+
+    function GetSearchTheNumber boolean  (){
+
+        return logic
+    }
