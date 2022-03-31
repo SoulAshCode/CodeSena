@@ -1,0 +1,36 @@
+/*
+Programa para mostrar y compara la temperatura
+*/
+Inicio
+    string dias[5]
+    double temperatura[5][2]
+    write "La primera posicion esta ubicada la temperatura menor del dia y en la segunda la temperatura maxima"
+    dias[1]= "Lunes"
+    dias[2]= "Martes"
+    dias[3]= "Miercoles"
+    dias[4]= "Jueves"
+    dias[5]= "Viernes"
+    temperatura[1][1]= 24.4
+    temperatura[1][2]=27.7
+    temperatura[2][1]=13.4
+    temperatura[2][2]=40.4
+    temperatura[3][1]=33.3
+    temperatura[3][2]=33.5
+    temperatura[4][1]=7.5
+    temperatura[4][2]=12.4
+    temperatura[5][1]=3.4
+    temperatura[5][2]=5.4
+    double ingreso
+    write "La primera posicion esta ubicada la temperatura menor del dia y en la segunda la temperatura maxima"
+    write "Ingrese la temperatura que desea buscar"
+    read ingreso
+    for(int i=;i<temperatura.lenght;i++){
+        for(int j=1;j<temperatura.lenght;j++){
+            if(temperatura[i][j]==ingreso){
+                write"Esta temperaturasi concide, con la de "temperatura[i][j]
+            }else{
+                "Esta temperatura no exite en ninguno de los dias"
+            }
+        }
+    }
+Fin
