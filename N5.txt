@@ -11,7 +11,7 @@ Start
             }
             if(enter='e'){
                 int acumE+=1
-                acumE
+                write
             }
             if(enter='i'){
                 int acumI+=1
@@ -19,11 +19,11 @@ Start
             }
             if(enter='o'){
                 int acumO+=1
-                wirte acumO
+                write acumO
             }
             if(enter='u'){
                 int acumU+=1
-                wirte acumU
+                write acumU
             }
         }
     }
