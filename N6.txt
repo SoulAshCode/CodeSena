@@ -1,0 +1,144 @@
+/*
+exercise marketshop 
+N6 exercise 
+SoulAshCode in the sena :)
+*/
+optioner
+Star 
+    arrayList<miMarket> array = new arrayList<miMarket>
+    enterData(array)
+    do{
+        mainMenu()
+        switch (optioner){
+            case 1 :viewMiList
+            break
+            case 2 :myNewProduct
+            brea
+            case 3 :seacrhProduct
+            break
+            case 4 :seacrhProduct
+            break
+            case 0: write  "Thanks godbye :)"
+            break
+            default: write "the option not is correct" 
+        }        
+    }while(optioner!=0)
+
+    
+End
+
+function viewMiList(){
+    
+		 write"---------------- List of products ----------------"
+		 write"Name and price "
+         for(i=0;i<array.size;i++){
+             miMarket pro = array.Get(i)
+             write "article",pro.name "price",pro.price
+         }
+}
+function mainMenu(){
+    "-----------------Welcome to my supermarket  ----------------"
+
+	 write 
+     "  1. list of products 
+        2. create product 
+        3. search product
+        4. modify the product
+        0. Exit"
+
+}
+function modifityProduct(){
+    write "Enter the name of the product"
+    String read name
+    for(i=0;i<array.length;i++){
+        if(name==[i]){
+            write "what is the new cost of the product ?"
+            double read price
+            pro.price= price
+            write "the porduct and price"
+            array[i]
+        }
+
+    }
+}
+
+function myNewProduct(){
+    write "Enter the name of the product"
+    String read name 
+    write "Enter the price of the product"
+    myMarket pro  myMarket()
+    pro.name= name
+    pro.price= price
+    miMarket.add(pro)
+}
+fuction seacrhProduct (){
+    write "Enter the name of the product"
+    String read name
+    for(int i=0;i<array.length;i++){
+        if(name==array[i]){
+            write "your product is "array[i]
+        }else{
+            write "No have the product"
+        }
+    }
+}
+
+
+function enterData(Arraylist<miMarket> array){
+
+    miMarket articulo1= new miMarket
+    miMarket articulo2= new miMarket
+    miMarket articulo3= new miMarket
+    miMarket articulo4= new miMarket
+    miMarket articulo5= new miMarket
+    miMarket articulo6= new miMarket
+    miMarket articulo7= new miMarket
+    miMarket articulo8= new miMarket
+    miMarket articulo9= new miMarket
+    miMarket articulo10= new miMarket
+    
+    articulo1.name ="Cerveza"
+    articulo1.price=4.500
+    articulo2.name ="vino"
+    articulo2.price=6.500
+    articulo3.name ="Pilsen"
+    articulo3.price=3.500
+    articulo4.name ="Ron"
+    articulo4.price=28.500
+    articulo5.name ="Aguardiente"
+    articulo5.price=23.500
+    articulo6.name ="Vodka"
+    articulo6.price=30.500
+    articulo7.name ="Wiski"
+    articulo7.price=40.500
+    articulo8.name ="Tequila"
+    articulo8.price=60.500
+    articulo9.name ="Monster"
+    articulo9.price=40.500
+    articulo10.name ="Red bull"
+    articulo10.price=6.500
+    array.add(articulo1)
+    array.add(articulo2)
+    array.add(articulo3)
+    array.add(articulo4)
+    array.add(articulo5)
+    array.add(articulo6)
+    array.add(articulo7)
+    array.add(articulo8)
+    array.add(articulo9)
+    array.add(articulo10)
+
+    
+}
+function options(int option){
+    read option
+    optioner=option
+    return optioner
+}
+
+function miMarket{
+
+    String name
+    double price
+    int stock
+}
