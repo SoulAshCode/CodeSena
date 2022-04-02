@@ -1,0 +1,31 @@
+
+Start 
+    array[1]
+    write "enter the text"
+    String read text
+    for(int k =0;k<length;k++){
+        enter=sublow(text,k ,k){
+            if(enter='a'){
+                int acumA+=1
+                write acumA
+            }
+            if(enter='e'){
+                int acumE+=1
+                acumE
+            }
+            if(enter='i'){
+                int acumI+=1
+                write acumI
+            }
+            if(enter='o'){
+                int acumO+=1
+                wirte acumO
+            }
+            if(enter='u'){
+                int acumU+=1
+                wirte acumU
+            }
+        }
+    }
+
+End
